@@ -13,10 +13,105 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{3d2615ae-28ea-4ace-b61b-66c59018478a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Body">
+      <UniqueIdentifier>{16c88914-ab4e-4a17-b77c-e5119d2025b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Atack">
+      <UniqueIdentifier>{36a174c7-eee3-4e6e-814e-4ed38bcb149a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Item">
+      <UniqueIdentifier>{0c17b714-9d00-4224-9a78-87583cc47447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{3143f274-9ac8-4d89-bb55-5c9878f19429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{28c5193c-921c-455a-9dd5-bb19b41cddbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Observers">
+      <UniqueIdentifier>{a2fe9b4f-7394-40de-86cd-153e05f90480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{7fe9c5fa-eacb-4177-81b5-9f663dacd712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Observers">
+      <UniqueIdentifier>{7ba0e9d5-4554-4586-a233-ff2c986d458e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Atack">
+      <UniqueIdentifier>{60513278-c711-4c42-ae8b-fb1b1c6a5ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Body">
+      <UniqueIdentifier>{b760a010-d7a3-45a1-a119-89954299b43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Item">
+      <UniqueIdentifier>{1bc3478d-e759-42a3-a917-c2bd06f3579c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="General.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Model\Atack\Atack.h">
+      <Filter>Header Files\Model\Atack</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Atack\EAtack.h">
+      <Filter>Header Files\Model\Atack</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Atack\PAtack.h">
+      <Filter>Header Files\Model\Atack</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Body\Body.h">
+      <Filter>Header Files\Model\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Body\Enemy.h">
+      <Filter>Header Files\Model\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Body\Player.h">
+      <Filter>Header Files\Model\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Item\Food.h">
+      <Filter>Header Files\Model\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Item\Item.h">
+      <Filter>Header Files\Model\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Item\Power.h">
+      <Filter>Header Files\Model\Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Model\Atack\Atack.cpp">
+      <Filter>Source Files\Model\Atack</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Atack\EAtack.cpp">
+      <Filter>Source Files\Model\Atack</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Atack\PAtack.cpp">
+      <Filter>Source Files\Model\Atack</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Body\Body.cpp">
+      <Filter>Source Files\Model\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Body\Enemy.cpp">
+      <Filter>Source Files\Model\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Body\Player.cpp">
+      <Filter>Source Files\Model\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Item\Food.cpp">
+      <Filter>Source Files\Model\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Item\Item.cpp">
+      <Filter>Source Files\Model\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Item\Power.cpp">
+      <Filter>Source Files\Model\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -116,6 +116,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="General.h" />
+    <ClInclude Include="Model\Atack\Atack.h" />
+    <ClInclude Include="Model\Atack\EAtack.h" />
+    <ClInclude Include="Model\Atack\PAtack.h" />
+    <ClInclude Include="Model\Body\Body.h" />
+    <ClInclude Include="Model\Body\Enemy.h" />
+    <ClInclude Include="Model\Body\Player.h" />
+    <ClInclude Include="Model\Item\Food.h" />
+    <ClInclude Include="Model\Item\Item.h" />
+    <ClInclude Include="Model\Item\Power.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Model\Atack\Atack.cpp" />
+    <ClCompile Include="Model\Atack\EAtack.cpp" />
+    <ClCompile Include="Model\Atack\PAtack.cpp" />
+    <ClCompile Include="Model\Body\Body.cpp" />
+    <ClCompile Include="Model\Body\Enemy.cpp" />
+    <ClCompile Include="Model\Body\Player.cpp" />
+    <ClCompile Include="Model\Item\Food.cpp" />
+    <ClCompile Include="Model\Item\Item.cpp" />
+    <ClCompile Include="Model\Item\Power.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
